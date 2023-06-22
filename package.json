@@ -1,7 +1,7 @@
 {
   "name": "training",
   "version": "1.0.0",
-  "description": "",
+  "description": "How to use:\r run: \"npn init\" command in root address for configuration\r run: \"npx cypress\" command in root address to start the product",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^12.13.0"
-  }
+  },
+  "devDependencies": {}
 }
