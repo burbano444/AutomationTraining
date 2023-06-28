@@ -1,0 +1,18 @@
+{
+    "tc1_loginerror":{
+        "email":"errorbla4@endava.com",
+        "password":"errorpass"
+    },
+
+    "tc2_loginsuccess":{
+        "email":"tt@endava.com",
+        "password":"Test/1234",
+        "method":"GET",
+        "endpoint":"https://ecommerce-playground.lambdatest.io/index.php?route=account/account"
+    },
+
+    "tc3_loginerror":{
+        "email":"errorblocked@endava.com",
+        "password":"errorpass"
+    }
+}

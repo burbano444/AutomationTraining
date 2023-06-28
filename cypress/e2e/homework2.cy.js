@@ -1,6 +1,6 @@
 describe('CSS selector', () => {
   it('Classwork Homework', () => {
-    cy.visit('')  //Lo dejamos vacío ya que configuramos página en "cupress.config.js"
+    cy.visit('')  //Lo dejamos vacío ya que configuramos página en "cypress.config.js"
 //  cy.visit('mercadolibre.com.co')
     cy.get('div > a[href="prod.html?idp_=1"]').click()
     cy.get('#login2').click()    
