@@ -6,7 +6,7 @@ describe('Assertions', () => {
 //  cy.get('#login2').click()    
 //  cy.get('#loginusername').type('user123')
 
-//  EJEMPLO JULI
+//EJEMPLO JULI
 //  cy.get('#itemc:nth-of-type(4)').click()
 //  cy.get('#tbodyid > div ').should('have.length.greaterThan',2)
 
@@ -24,14 +24,14 @@ describe('Assertions', () => {
     })
 
 //SOLUCIÓN TAREA 3
-//Con "then" como Yield
+    //Con "then" como Yield
     cy.get('#tbodyid .card-title a[href="prod.html?idp_=2"]').then((elementName2)=>{
       expect(elementName2).to.have.text('Nokia lumia 1520')
       expect(elementName2).to.contain('1520')
       expect(elementName2).to.have.length(1) 
     })
 
-//Con "should" como Yield
+    //Con "should" como Yield
     cy.get('#tbodyid .card-title a[href="prod.html?idp_=2"]').should((elementName3)=>{
       expect(elementName3).to.have.text('Nokia lumia 1520')
       expect(elementName3).to.contain('1520')
